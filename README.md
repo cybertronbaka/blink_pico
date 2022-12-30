@@ -24,7 +24,14 @@ pico_enable_stdio_uart(${PROJECT_NAME} 0)
 ```
 2. cmake and make again after clearing build folder ( Need to automate this)
 3. Use putty or minicom to communicate with the pico serially.
-Note: BUADRATE is 115200 and usually the Serial Device sits at /dev/ttyACM0
+Note: buadrate is 115200 and usually the Serial Device sits at /dev/ttyACM0
 
 # TODO:
 Figure out how to build for debug from terminal.
+
+# Resources:
+1. Good Setup guide if you are to use C/C++ [Youtube(Digi-Key)](https://www.youtube.com/watch?v=B5rQSoOmR5w)
+2. Setup guid in PDF [Getting-Started](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
+3. Pinout diagram [diagram](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf)
+4. Documentation of `pico-sdk` [pico-sdk/doxygen](https://raspberrypi.github.io/pico-sdk-doxygen/)
+5. PuTTY setup [instr](https://www.ssh.com/academy/ssh/putty/linux)
